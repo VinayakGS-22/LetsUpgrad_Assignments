@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: whitesmoke;
+
+}
+.container{
+    width: 100%;
+    background: Red;
+    display: inline-block;
+}
+.card{
+    height: 300px;
+    width: 19.8%;
+    background-color: yellow;
+    display: inline-block;
+}
+/* For Mobile Devices */
+@media(max-width:420px){
+    .card{
+        width: 100%;
+        
+    }
+}
+/* For Ipad Devices */
+@media (max-width:1024px) {
+    .card{
+        width:100%;
+        
+    }
+    
+}
